@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"Gowie/src/containers"
+	"Gowie/src/images"
+)
 
 func main() {
-	fmt.Println("This is the start to the Gowie project!")
+	images.ListImages()
+	containers.ListContainers()
 }
